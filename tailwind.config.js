@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'hero-pattern': "url('src/assets/dwa.jpg')" ,
+        'hero-pattern': "url('https://res.cloudinary.com/diogyja1g/image/upload/v1692965227/qvsy65cnb9be5bui0wn4.jpg')" ,
        
        })
     },

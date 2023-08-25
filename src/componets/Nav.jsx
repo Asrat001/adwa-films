@@ -10,7 +10,7 @@ function Nav() {
     <RxHamburgerMenu size={40}/>
     </button>
   
-       
+    
    </nav>
 
   )
