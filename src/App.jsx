@@ -1,5 +1,6 @@
 import React from "react"
 import Hero from "./componets/Hero"
+import Work from "./componets/Work"
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <>
     <div className="">
     <Hero/>
+    <Work/>
     </div>
     
      
