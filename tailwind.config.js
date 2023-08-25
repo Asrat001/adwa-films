@@ -1,11 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+ 
+  
+    content: ["./src/**/*.{js,jsx}"],
+  
+  mode: "jit",
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero-pattern': "url('src/assets/dwa.jpg')" ,
+       
+       })
+    },
   },
   plugins: [],
 }

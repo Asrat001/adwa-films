@@ -1,5 +1,6 @@
 import React from "react"
-import Nav from "./componets/Nav"
+import Hero from "./componets/Hero"
+
 
 
 
@@ -7,7 +8,10 @@ function App() {
 
   return (
     <>
-    <Nav/>
+    <div className="">
+    <Hero/>
+    </div>
+    
      
     </>
   )

@@ -1,8 +1,18 @@
 import React from 'react'
+import logo from '../assets/logo.jpg'
+import {RxHamburgerMenu} from 'react-icons/rx'
 
 function Nav() {
   return (
-    <div>nav</div>
+   <nav className='flex justify-between items-center p-2'>
+    <img src={logo} alt='logo' className=' rounded-full w-16 h-16 sm:h-20 sm:w-20'/>
+    <button className=' text-green-300'>
+    <RxHamburgerMenu size={40}/>
+    </button>
+  
+       
+   </nav>
+
   )
 }
 
