@@ -12,8 +12,8 @@ import slide_image_3 from '../assets/sddefault2.jpg';
 import slide_image_4 from '../assets/sddefault3.jpg';
 function Work() {
   return (
-      <div className="block sm:hidden bg-[#04152d]">
-      <p className=' text-[40px] text-green-300 font-glutin font-semibold'>Our recent works</p>
+      <div className="block sm:hidden  bg-[#04152d]">
+      <p className=' text-[32px]  text-green-300 font-glutin font-semibold'>Our recent Uploads</p>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
