@@ -9,7 +9,7 @@ import '../index.css'
 function Hero() {
  
   return (
-    <div className='  bg-hero-pattern   bg-no-repeat  bg-cover  h-auto sm:h-screen '>
+    <div className='  bg-hero-pattern   bg-no-repeat  bg-cover  h-auto  '>
       <div className=' bg-gradient-to-r from-cyan-500/50 to-blue-500/50 h-screen'>
      <Nav/>
      <section className='flex flex-col justify-center items-center mt-[60px]  '>
@@ -20,7 +20,7 @@ function Hero() {
      <p className='block sm:hidden md:hidden lg:hidden xl:hidden text-center text-[23px] font-semibold text-white  font-glutin px-2'>Adwa films is an Ethiopian-based production company. Adwa films is a medium for sharing content which aims to present the best in Ethiopian movie to viewers throughout the world.. </p>
       </div>
       <div className='flex justify-center items-center mt-4 gap-x-4'>
-        <a href='#' className='w-24 h-24 sm:w-20 sm:h-20 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
+        <a href='#' className='w-24 h-24 sm:w-20 sm:h-20  rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
 <        BsFacebook size={36}/>
         </a>
         <a href='#' className='w-24 h-24 sm:w-20 sm:h-20 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
