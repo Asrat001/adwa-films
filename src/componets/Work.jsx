@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { AiOutlineArrowRight } from 'react-icons/ai';
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import { AiOutlinePlayCircle } from 'react-icons/ai';
 
 // Import Swiper styles
@@ -10,7 +10,7 @@ import 'swiper/css/effect-cards';
 import './work.css';
 
 // import required modules
-import { EffectCards } from 'swiper/modules';
+import { EffectCards,Pagination } from 'swiper/modules';
 import slide_image_1 from '../assets/sddefault.jpg';
 import slide_image_2 from '../assets/sddefault1.jpg';
 import slide_image_3 from '../assets/sddefault2.jpg';
@@ -19,13 +19,14 @@ function Work() {
   return (
     <section className='  bg-[#04152d] flex flex-col  sm:flex-row  justify-between items-center'>
       <div className='flex justify-center items-center flex-col'>
-        <h1 className='text-[24px] sm:text-[40px] text-green-300 my-2 font-glutin font-bold'>our recent Uploads</h1>
+        <h1 className='text-[30px] sm:text-[40px] text-green-300 my-2 font-glutin font-bold'>our recent Uploads</h1>
       <Swiper
         effect={'cards'}
         pagination={true}
         grabCursor={true}
-        modules={[EffectCards]}
+        modules={[EffectCards , Pagination]}
         className="mySwiper"
+        
       >
         <SwiperSlide>
           <img src={slide_image_1} className='w-full h-1/2'/>
@@ -45,8 +46,13 @@ function Work() {
         </SwiperSlide>
       
       </Swiper>
-      <div className=' relative left-0 bottom-0 h-[100px] mt-4  bg-zinc-900'>
-<h1 className='text-white'> hey there</h1>
+      <div className=' relative left-0 bottom-0  mt-4   flex  space-x-[100px]'>
+         <button className='p-[1px] rounded-full border-green-300 border-[2px]'>
+         <AiOutlineArrowLeft className='w-8 h-8 text-white' />
+         </button>
+         <button className='p-[1px] rounded-full border-green-300 border-[2px]'>
+         <AiOutlineArrowRight className='w-8 h-8 text-white'/>
+          </button>
       </div>
       </div>
     
