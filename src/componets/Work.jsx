@@ -45,6 +45,9 @@ function Work() {
         </SwiperSlide>
       
       </Swiper>
+      <div className=' relative left-0 bottom-0 h-[100px] mt-4  bg-zinc-900'>
+<h1 className='text-white'> hey there</h1>
+      </div>
       </div>
     
     <div className="mt-4">
