@@ -1,7 +1,7 @@
 import React from "react"
 import Hero from "./componets/Hero"
 import Work from "./componets/Work"
-import Team from "./componets/Team"
+import Team from "./componets/Team/Team"
 
 
 

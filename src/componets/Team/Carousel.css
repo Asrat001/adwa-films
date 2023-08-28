@@ -1,0 +1,30 @@
+.swiper-container{
+    width: 100%;
+    height: 600px;
+    padding:100px;
+  }
+  
+  .swiper-slides-container{
+  width: 340px !important;
+  height: 400px;
+  background-color: transparent !important;
+  border: 2px solid gainsboro;
+  
+ 
+  }
+
+  .swiper-pagination-bullet-active {
+    color:#fff;
+    background:rgb(159, 245, 31);
+  }
+  @media screen and (max-width: 576px) {
+    
+    .swiper-slides-container{
+     width: 200 !important;
+      height: 400px;
+     
+      }
+    
+  }
+
+  

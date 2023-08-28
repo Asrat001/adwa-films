@@ -56,7 +56,7 @@ function Work() {
       </div>
       </div>
     
-    <div className="mt-4">
+    <div className="mt-4 sm:mt-0 ">
 <h1 className='text-[24px] sm:text-[40px] text-green-300 font-glutin font-semibold text-center sm:text-right'>We also promote Events </h1>
 <div className='px-6 py-4'>
 <p className='sm:text-[20px] text-white font-glutin text-center '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas reiciendis reprehenderit omnis magnam alias accusamus! Quos aliquid quae quam ut assumenda deserunt sed beatae blanditiis, sit sint quis optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas reiciendis reprehenderit omnis magnam alias accusamus! Quos ali</p>
