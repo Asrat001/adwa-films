@@ -19,7 +19,7 @@ function Work() {
   return (
     <section className=' p-16 bg-[#04152d] flex flex-col  sm:flex-row  justify-between items-center'>
       <div className='flex justify-center items-center flex-col'>
-        <h1 className='text-[30px] sm:text-[40px] text-green-300 my-2 font-glutin font-bold'>our recent Uploads</h1>
+        <h1 className='text-[28px] sm:text-[40px] text-green-300 my-2 font-glutin font-bold'>our recent Uploads</h1>
       <Swiper
         effect={'cards'}
         pagination={true}
@@ -56,9 +56,9 @@ function Work() {
       </div>
       </div>
     
-    <div className="mt-4 sm:mt-0 w-1/2 ">
+    <div className="mt-4 sm:mt-0 sm:w-1/2 ">
 <h1 className='text-[24px] sm:text-[40px] text-green-300 font-glutin font-semibold text-center '>We also promote Events </h1>
-<div className='px-6 py-4'>
+<div className='sm:px-6 py-4'>
 <p className='sm:text-[20px] text-white font-glutin text-center '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas reiciendis reprehenderit omnis magnam alias accusamus! Quos aliquid quae quam ut assumenda deserunt sed beatae blanditiis, sit sint quis optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas reiciendis reprehenderit omnis magnam alias accusamus! Quos ali</p>
 </div>
 <div className='flex  justify-center items-center'>
