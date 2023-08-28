@@ -9,13 +9,13 @@ import person1 from '../../assets/1.png'
 import Teams from '../../data';
 import {BsFacebook,BsTelegram} from 'react-icons/bs'
 import {PiInstagramLogoFill} from 'react-icons/pi'
-import {AiFillYoutube} from 'react-icons/ai'
+
 
 function Team() {
-   console.log(Teams.map(name=>{return name.img}))
+   
   return (
-  <section className='  sm:p-6 '>
-    <h1 className=' text-green-300 font-glutin text-[30px] font-semibold mt-[60px] text-center'>Meet the Team</h1>
+  <section className='  sm:p-6 mt-[100px]'>
+    <h1 className=' text-green-300 font-glutin text-[30px] sm:text-[40px] font-semibold mt-[60px] text-center'>Meet the Team</h1>
     {
       Teams.length >0 ?
       <Swiper

@@ -20,16 +20,16 @@ function Hero() {
      <p className='block sm:hidden md:hidden lg:hidden xl:hidden text-center text-[23px] font-semibold text-white  font-glutin px-2'>Adwa films is an Ethiopian-based production company. Adwa films is a medium for sharing content which aims to present the best in Ethiopian movie to viewers throughout the world.. </p>
       </div>
       <div className='flex justify-center items-center mt-4 gap-x-4'>
-        <a href='#' className='w-16 h-16  rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
+        <a href='https://www.facebook.com/Adwafilms21' target='_blank' className='w-16 h-16  rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
 <        BsFacebook size={36}/>
         </a>
-        <a href='#' className='w-16 h-16 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
+        <a href='https://www.instagram.com/adwafilms/' target='_blank' className='w-16 h-16 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
     <PiInstagramLogoFill size={36}/>
         </a>
-        <a href='#' className='w-16 h-16 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
+        <a href='https://www.youtube.com/@Adwafilms' target='_blank' className='w-16 h-16 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
 <AiFillYoutube size={36}/>
         </a>
-        <a href='#' className='w-16 h-16 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
+        <a href='https://t.me/adwafilms21' target='_blank' className='w-16 h-16 rounded-full border-[4px] border-green-300 text-white flex justify-center items-center'>
 <BsTelegram size={36}/>
         </a>
       </div>
