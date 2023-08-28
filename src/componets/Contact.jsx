@@ -9,7 +9,8 @@ function Contact() {
 <p className='text-[20px] text-white font-glutin '>  for any business  inquiries contact us through our scocial media</p>
 <div className='flex flex-col gap-y-4'>
     <div className='flex  items-center  text-white gap-x-4 font-glutin font-semibold text-[20px]'>
-        <a href='tel:251927131207' className='w-8 h-8 border-[2px] flex justify-center items-center border-gray-300 rounded-full'>
+        <a href='tel:+251915568819
+' className='w-8 h-8 border-[2px] flex justify-center items-center border-gray-300 rounded-full'>
 <BsFillTelephoneOutboundFill/>
         </a>
         +251927131207

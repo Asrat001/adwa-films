@@ -1,46 +1,46 @@
 const Teams = [
   {
-    img: "src/assets/1.png",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222323/1_rt59oi.jpg",
     name: "yeabe bekele",
     role: "Writer  Director  Editor",
   },
   {
-    img: "src/assets/9.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222355/9_v0if8x.jpg",
     name: "Netsanet Getachew",
     role: "Producer  Production  Manager  Writer",
   },
   {
-    img: "src/assets/4.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222352/4_ixvcfu.jpg",
     name: "Metasebiya Talema",
     role: "Producer    Director    Writer",
   },
   {
-    img: "src/assets/5.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222354/5_jl5qia.jpg",
     name: "Amanuel Yeshiwond",
     role: "Actor  Producer   Director",
   },
   {
-    img: "src/assets/2.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222350/2_i8yqkw.jpg",
     name: "Dawit Tsegaye",
     role: "Cinematographer  Light Engineer   Production manager",
   },
   {
-    img: "src/assets/3.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222349/3_bonsem.jpg",
     name: "Kumneger seyum",
     role: "Graphics Designer Actor",
   },
   {
-    img: "src/assets/6.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222352/6_snnlil.jpg",
     name: "Berhan Melese",
     role: "Cinmatograher  Sound Editor",
   },
   {
-    img: "src/assets/7.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222352/7_o23tp6.jpg",
     name: "Habitamu Alemu (Amen)",
     role: "Sound Editor",
   },
   {
-    img: "src/assets/8.jpg",
+    img: "https://res.cloudinary.com/diogyja1g/image/upload/v1693222352/8_jri9po.jpg",
     name: "Tamir Belete",
     role: "Actor Assistant Cameraman  Director",
   },
